@@ -9,6 +9,15 @@ body{
 main{
     flex-direction: row;
     flex: auto;
+    border: solid 1px salmon;
+}
+
+nav{
+    background-color: salmon;
+}
+
+header>nav>ul {
+    padding: 20px;
 }
 
 article{
@@ -21,4 +30,15 @@ aside{
 
 article, aside{
     overflow-y: auto;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer>p{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
 }
